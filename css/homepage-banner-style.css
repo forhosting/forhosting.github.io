@@ -1,0 +1,144 @@
+body {
+    background-color: #0f1322 !important;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    overflow-y:hidden;
+}
+#main {
+    /*background-image: url(../assets/images/cycle.jpg);*/
+    background-clip: url(../assets/images/sports_fL6ChDi1_kVss.mp4);
+    -webkit-box-align: start;
+        -moz-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+        -moz-box-pack: center;
+    justify-content: center;
+}
+.viewport-section {
+
+}
+.viewport-section {
+    position: relative;
+    display: flex;
+    color: #fff;
+    text-shadow: .05em .3em .3em rgba(0,0,0,.3);
+    overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+.viewport-section {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+    background-size: cover;
+}
+
+#homepage {
+    position: relative;
+    background-color: #0f1322 !important;
+}
+
+nav {
+    display: none;
+}
+
+#runningman {
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    z-index: 0;
+}
+
+#logo {
+    position: absolute;
+    right: 30%;
+    width: 150px;
+    top: 60px;
+}
+
+#date {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    font-size: 20px;
+    top: 160px;
+    font-weight: 100;
+}
+
+#footballer {
+    width: 30%;
+    position: absolute;
+    right: 10px;
+}
+
+
+@media (min-width: 500px) {
+    #runningman {
+        width: 40%;
+        position: absolute;
+        left: 190px;
+        top: 80px;
+        z-index: 0;
+    }
+
+    #logo {
+        position: absolute;
+        right: 50px;
+        width: 275px;
+        top: 70px;
+    }
+
+    #date {
+        width: 300px;
+        top: 270px;
+        right: 50px;
+        font-size: 40px;
+    }
+
+    #footballer {
+        width: 30%;
+        position: absolute;
+        right: 10px;
+    }
+    
+    #content {
+        padding: 30px;
+    }
+    
+    #content p {
+        width: 70%;
+    }
+    
+    #content button {
+        position: absolute;
+        bottom: 150px;
+        background-color: #354089;
+        padding: 15px;
+        border: none;
+        color: white;
+        width: 150px;
+    }
+
+    nav {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    
+    nav li {
+        display: inline;
+        margin: 8px;
+    }
+    
+    nav li a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.upper-sec{
+    background-color: #0f1322 !important;
+}
