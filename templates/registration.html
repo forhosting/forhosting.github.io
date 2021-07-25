@@ -3,7 +3,7 @@
 <head>
 
     <link rel="stylesheet" href="../css/style.css">
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -41,21 +41,22 @@
             margin: 0;
             font-family: Arial;
             font-size: 17px;
-            overflow: hidden;
+            overflow-x: hidden;
         }
 
         #myVideo {
             position: fixed;
-            right: 0;
+            left: 50%;
             bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
+            /*min-width: 100%;
+            min-height: 100%;*/
         }
 
         .regi {
             text-align: center;
             position: absolute;
-            top: 150;
+            top: 90;
+            left: 20%;
             color: #f1f1f1;
             width: 100%;
         }
@@ -117,7 +118,10 @@
                 </tr>
             </center>
 
-            <table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
+            <table border='50' width='480px' cellpadding='5' cellspacing='0' align='center'>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
                 <tr>
                     <td style="color: white;" align='center'>Name:</td>
                     <td><input type='text' name='name'></td>
@@ -126,7 +130,7 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td style="color: white;" align='center'>Date Of Birth:</td>
+                    <td style="color: white;" align='top-right'>Date Of Birth:</td>
                     <td><input type='date' name='name'></td>
                 </tr>
                 <tr>
@@ -169,16 +173,12 @@
                 <tr>
                     <td>&nbsp;</td>
                 </tr>
-                <tr>
-                    <td style="color: white;" align='center'>Zip:</td>
-                    <td><input type='text' name='zip'></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
                 <table border='0' cellpadding='0' cellspacing='0' width='480px' align='center'>
                     <tr>
-                        <td align='center'><input type='submit' name='REGISTER' value="register"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align='center'><input type='submit' name='REGISTER' value="Register"></td>
                     </tr>
                 </table>
             </table>
