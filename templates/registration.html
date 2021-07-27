@@ -69,11 +69,12 @@
         </nav>
     </div>
     <div class="regi">
-        <table style="color:white;" align="center" border='0' width='380px' cellpadding='0' cellspacing='0'>
+        <!--<table style="color:white;" align="center" border='0' width='380px' cellpadding='0' cellspacing='0'>-->
+        <table border="50" width='50%' cellpadding='4' cellspacing='0' align='center'>
             <center>
                 <tr>
                     <td>
-                        <h1>Registration Form </h1>
+                        <h1 style="color: white;"> Registration Form</h1>
                     </td>
                 </tr>
                 <tr>
@@ -81,72 +82,75 @@
                 </tr>
             </center>
 
-            <table border='50' width='480px' cellpadding='5' cellspacing='0' align='center'>
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
+            <!--<table border="50" width='480px' cellpadding='5' cellspacing='0' align='center'>-->
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
 
-                <tr>
-                    <!--<td style="color: white;" align='center'> Name: </td>-->
-                    <td align="center"> <input type="tel" name='name' placeholder="Name" required id="rcorners"> </td>
-                </tr>
+            <tr>
+                <!--<td style="color: white;" align='center'> Name: </td>-->
+                <td align="center"> <input type="tel" name='name' placeholder="Name" required id="rcorners"> </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <!--<td style="color: white;" align='center'>Date Of Birth:</td>-->
+                <!--<td align="center"><input type='date' name='dob' placeholder="Date Of Birth" required id="rcorners"></td>-->
+                <td align="center"><input placeholder='Date Of Birth' onfocus="(this.type='date')" name='dob' required
+                        id="rcorners">
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <!--<td style="color: white;" class="dropdown" align='center'>Sports:</td>-->
+                <td align="center">
+                    <form action="">
+                        <select name='sports' id="rcorners" required>
+                            <option value="">Select Sport</option>
+                            <option value="1">Cricket</option>
+                            <option value="2">Football</option>
+                            <option value="3">Badminton</option>
+                            <option value="4">Basketball</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <!--<td style="color: white;" align='center'>Address:</td>-->
+                <td align="center"><input type='text' name='address' placeholder="Address" required id="rcorners"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <!--<td style="color: white;" align='center'>Phone:</td>-->
+                <td align="center"><input type='tel' name='phone' placeholder="Phone Number" required id="rcorners">
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <!--<td style="color: white;" align='center'>Email:</td>-->
+                <td align="center"><input type='email' name='email' placeholder="Email" required id="rcorners"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <table border='0' cellpadding='0' cellspacing='0' width='480px' align='center'>
                 <tr>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <!--<td style="color: white;" align='center'>Date Of Birth:</td>-->
-                    <td align="center"><input type='date' name='dob' placeholder="Date Of Birth" required id="rcorners"></td>
+                    <td align='center'><input type='submit' name='REGISTER' value="Register" id="rcorners"></td>
                 </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <!--<td style="color: white;" class="dropdown" align='center'>Sports:</td>-->
-                    <td align="center">
-                        <form action="">
-                            <select name='sports' id="rcorners" required>
-                                <option value="">Select Sport</option>
-                                <option value="1">Cricket</option>
-                                <option value="2">Football</option>
-                                <option value="3">Badminton</option>
-                                <option value="4">Basketball</option>
-                            </select>
-                        </form>
-                    </td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <!--<td style="color: white;" align='center'>Address:</td>-->
-                    <td align="center"><input type='text' name='address' placeholder="Address" required id="rcorners"></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <!--<td style="color: white;" align='center'>Phone:</td>-->
-                    <td align="center"><input type='text' name='phone' placeholder="Phone Number" required id="rcorners"></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                   <!--<td style="color: white;" align='center'>Email:</td>-->
-                    <td align="center"><input type='email' name='email' placeholder="Email" required id="rcorners"></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
-                <table border='0' cellpadding='0' cellspacing='0' width='480px' align='center'>
-                    <tr>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td align='center'><input type='submit' name='REGISTER' value="Register" id="rcorners"></td>
-                    </tr>
-                </table>
             </table>
+            <!--</table>-->
         </table>
 
     </div>
