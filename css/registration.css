@@ -1,6 +1,9 @@
 * {
   box-sizing: content-box;
 }
+@media handheld, only screen and (max-width: 767px) {
+ //mobile version css
+}
 
 body {
   margin: 0;
