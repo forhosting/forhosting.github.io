@@ -37,7 +37,7 @@ body {
 #rcorners {
   border-radius: 100px;
   border-color: red;
-  width: 350px;
+  width: 60%;
   height: 40px;
   text-align: center;
 }
